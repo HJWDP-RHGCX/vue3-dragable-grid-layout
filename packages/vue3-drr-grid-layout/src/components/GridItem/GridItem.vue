@@ -525,6 +525,7 @@ onMounted(() => {
   tryMakeDraggable()
   createStyle()
 })
+defineExpose({calcXY,style})
 </script>
 
 <style lang="scss">
